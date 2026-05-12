@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConnectSphere - Connect. Share. Thrive.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🌐</span>
+                <span>ConnectSphere</span>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="https://github.com/bigchungus7640mc-coder/ConnectSphere" target="_blank" class="nav-link github-link">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>ConnectSphere</h1>
+            <p class="tagline">Connect. Share. Thrive.</p>
+            <p class="description">The ultimate platform for seamless communication across Discord, WhatsApp, and GitHub</p>
+            <button class="cta-button" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get Started</button>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Why Choose ConnectSphere?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Global Network</h3>
+                    <p>Connect with people worldwide instantly</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>Multi-Platform Chat</h3>
+                    <p>Message via Discord, WhatsApp, and more</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Communities</h3>
+                    <p>Build and manage thriving communities</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure & Private</h3>
+                    <p>End-to-end encryption for all communications</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Real-time messaging with minimal latency</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Easy Integration</h3>
+                    <p>Seamlessly integrate with GitHub workflows</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About ConnectSphere</h2>
+            <p>ConnectSphere is a revolutionary platform designed to bridge communication gaps across your favorite platforms. Whether you're collaborating on GitHub, chatting on Discord, or messaging on WhatsApp, ConnectSphere brings it all together in one unified experience.</p>
+            <div class="about-stats">
+                <div class="stat">
+                    <h4>3+</h4>
+                    <p>Platforms</p>
+                </div>
+                <div class="stat">
+                    <h4>∞</h4>
+                    <p>Connections</p>
+                </div>
+                <div class="stat">
+                    <h4>24/7</h4>
+                    <p>Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://discord.gg" target="_blank" title="Discord">
+                    <span class="social-icon">💜</span>
+                </a>
+                <a href="https://wa.me" target="_blank" title="WhatsApp">
+                    <span class="social-icon">💚</span>
+                </a>
+                <a href="https://github.com/bigchungus7640mc-coder" target="_blank" title="GitHub">
+                    <span class="social-icon">⚫</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 ConnectSphere. All rights reserved.</p>
+            <p>Made with ❤️ by bigchungus7640mc-coder</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
